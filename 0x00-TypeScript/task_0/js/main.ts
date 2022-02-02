@@ -1,8 +1,22 @@
 interface Student {
-    firstName: string
-    lastName: string
-    age: number
-    location: string
+    firstName: string;
+    lastName: string;
+    age: number;
+    location: string;
+}
+
+const student1: Student = {
+    firstName: 'Ashley',
+    lastName: 'Price',
+    age: 33,
+    location: 'Oklahoma',
+}
+
+const student2: Student = {
+    firstName: 'Bob',
+    lastName: 'Holbie',
+    age: 21,
+    location: 'California',
 }
 
 const studentsList: Array<Student> = [student1, student2];
@@ -12,7 +26,7 @@ const table: HTMLTableElement = document.createElement("table");
 const thead: HTMLTableSectionElement = document.createElement("thead");
 const tbody: HTMLTableSectionElement = document.createElement("tbody");
 
-const rowHead: HTMLTableRowElement = thread.insertRow(0);
+const rowHead: HTMLTableRowElement = thead.insertRow(0);
 const cellHead: HTMLTableCellElement = rowHead.insertCell(0);
 const cell2Head: HTMLTableCellElement = rowHead.insertCell(1);
 
