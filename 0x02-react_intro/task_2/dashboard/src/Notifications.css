@@ -1,0 +1,13 @@
+.Notifications {
+    border: solid #E0344A;
+    padding: 16px;
+}
+
+ul li [data-priority="default"] {
+    color: blue;
+}
+
+ul li [data-priority="urgent"] {
+    color: red;
+}
+
