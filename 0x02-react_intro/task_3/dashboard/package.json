@@ -6,6 +6,10 @@
     "@testing-library/jest-dom": "^5.16.2",
     "@testing-library/react": "^12.1.3",
     "@testing-library/user-event": "^13.5.0",
+<<<<<<< HEAD
+=======
+    "enzyme": "^3.11.0",
+>>>>>>> 2c345e581b7308b06f00d481fa66975f6fc948b4
     "react": "^17.0.2",
     "react-dom": "^17.0.2",
     "react-scripts": "5.0.0",
