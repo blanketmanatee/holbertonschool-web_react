@@ -10,7 +10,7 @@ ReactDOM.render(
     <Notifications />
   </div>
   <App />
-  </React.StrictMode>
+  </React.StrictMode>,
   document.getElementById('root')
 );
 
