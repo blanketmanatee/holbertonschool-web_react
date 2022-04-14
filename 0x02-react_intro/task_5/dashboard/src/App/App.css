@@ -1,0 +1,36 @@
+.App-header {
+    display: flex;
+    color: #e0344a;
+    align-items: center;
+    border-bottom: thick solid #e0344a;
+  }
+  .App-header img {
+    height: 100%;
+  }
+  
+  .App-header h1 {
+    margin: 0;
+    font-size: 4.7vh;
+  }
+  
+  .App-header {
+    display: flex;
+    align-items: center;
+    border-bottom: thick solid #e0344a;
+    height: 30vh;
+  }
+  
+  .App-body{
+    min-height: 50vh;
+  }
+  
+  .App-footer {
+    width: 100%;
+    border-top: thick solid #e0344a;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-items: center;
+    font-style: italic;
+  }
+  
