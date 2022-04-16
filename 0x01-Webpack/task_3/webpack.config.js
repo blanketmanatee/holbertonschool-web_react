@@ -2,6 +2,11 @@ const path = require('path');
 
 module.exports = {
   mode: 'development',
+  devtool: "inline-source-map",
+  devServer: {
+    port: 8564,
+    contentBase: './public',
+  },
   entry: {
     header: './modules/header/header.js',
     body: './modules/body/body.js',
