@@ -21,9 +21,7 @@ module.exports = {
     port: 8564,
   },
   plugins: [
-    new HTMLWebpackPlugin({
-      filename: 'public/index.html'
-    }),
+    new HTMLWebpackPlugin(),
     new CleanWebpackPlugin()
   ],
   module: {
