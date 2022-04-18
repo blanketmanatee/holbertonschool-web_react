@@ -1,0 +1,11 @@
+.App-logo {
+    height: 30vmin;
+    pointer-events: none;
+  }
+  
+  .App-header {
+    display: flex;
+    align-items: center;
+    color: #E0344A;
+    border-bottom: thick solid #E0344A;
+  }
